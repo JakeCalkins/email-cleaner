@@ -1,0 +1,4 @@
+{"message_id":"<1@news.example>","mailbox":"INBOX","sender":"News Daily <digest@news.example>","subject":"Top stories","date_received":"2026-05-24T10:00:00Z","is_read":false,"is_flagged":false,"is_junk":false}
+{"message_id":"<2@shop.example>","mailbox":"INBOX","sender":"Shop <sales@shop.example>","subject":"Your receipt","date_received":"2026-05-24T11:00:00Z","is_read":true,"is_flagged":false,"is_junk":false}
+{"message_id":"<3@news.example>","mailbox":"INBOX","sender":"News Daily <digest@news.example>","subject":"Evening update","date_received":"2026-05-24T22:00:00Z","is_read":false,"is_flagged":false,"is_junk":false}
+{"message_id":"<4@friend.test>","mailbox":"INBOX","sender":"Alex <alex@friend.test>","subject":"Dinner?","date_received":"2026-05-24T19:30:00Z","is_read":false,"is_flagged":true,"is_junk":false}
