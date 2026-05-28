@@ -16,7 +16,7 @@ It is intentionally scoped to **All Inboxes** only.
 ## Usage
 
 ```bash
-cd /Users/timthecomputer/Documents/email-cleaner
+cd <directory>/email-cleaner
 PYTHONPATH=src python3 -m mailzero --help
 ```
 
@@ -26,7 +26,7 @@ You can install `mailzero` as a normal shell command so you do not need `python 
 The installer prefers `pipx` if available, and otherwise uses user-site `pip`.
 
 ```bash
-cd /Users/timthecomputer/Documents/email-cleaner
+cd <directory>/email-cleaner
 ./scripts/install-macos-cli.sh
 mailzero --help
 ```
@@ -81,7 +81,7 @@ mailzero --undo
 To test RUN/undo wiring without touching real Mail, use testing mode:
 
 ```bash
-cd /Users/timthecomputer/Documents/email-cleaner
+cd <directory>/email-cleaner
 PYTHONPATH=src python3 -m mailzero --testing
 PYTHONPATH=src python3 -m mailzero --undo
 ```
@@ -90,7 +90,7 @@ In testing mode, RUN mode and `--undo` only modify the local `.mailzero` SQLite 
 
 ## Customization
 
-Primary behavior knobs are in [`workflow.py`](/Users/timthecomputer/Documents/email-cleaner/src/mailzero/workflow.py):
+Primary behavior knobs are in [`workflow.py`](<directory>/email-cleaner/src/mailzero/workflow.py):
 
 - `MIN_DOMAIN_TOTAL_FOR_TABLE`: minimum total messages required to show a domain row
 - `MAX_DOMAIN_ROWS_PER_MAILBOX`: per-inbox domain row cap in dashboard output
